@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Viralwaale Creative Agency Website
 
-# Run and deploy your AI Studio app
+A high-end, creative agency website featuring 3D parallax, motion graphics, and modern dark aesthetics.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/11lY4Me4dzvx171GNRUzL8f4_XFAEXGrV
+- 3D Hero section using React Three Fiber
+- Smooth Page Transitions
+- Custom animated cursor
+- Interactive Service Cards
+- Portfolio filtering
+- Contact Form UI
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **React 18**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Three.js / React Three Fiber**
+- **Lucide React** (Icons)
 
+## Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository (or unzip the downloaded file).
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
+
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+## Building for Production
+
+To build the app for production:
+
+```bash
+npm run build
+```
+
+The build artifacts will be stored in the `dist/` directory.
